@@ -1,0 +1,546 @@
+#first_section {
+	display: flex;
+	flex-flow: row nowrap;
+    justify-content:flex-start;
+	width: 1140px;
+	margin: auto;
+	margin-top: 550px;
+}
+
+@media all and (max-width:1180px) {
+	#first_section {
+	 width: 95%;
+	}
+}
+
+@media all and (max-width:890px) {
+	#first_section {
+		flex-flow: wrap row;
+	}
+}
+
+#for_flex {
+	width: 47.37%;
+	margin-right: 2.63%;
+	height: 1442px;
+}
+
+#for_flex2 {
+	width:47.38%;
+	margin-left: 2.63%;
+	height: 1442px;
+}
+
+@media all and (max-width:890px){
+	#for_flex {
+		width:100%;
+		margin: auto;
+		height: auto;
+	}
+}
+
+@media all and (max-width:890px){
+	#for_flex2 {
+		width: 100%;
+		margin: auto;
+		height: auto;
+	}
+}
+
+#hing_nobis {
+	height: 255px;
+	margin-top: 100px;
+	width: 100%;
+	
+	h3{
+		margin: 0;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 60px;
+		font-weight: 700;
+		line-height: 65px;
+		text-transform: uppercase;	
+		height: 135px;
+	}
+	
+	p {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 30px;
+		margin-top: 30px;
+		width: 70.37%;
+		height: 43px;
+		width:73%;
+	}
+	
+	a{ 
+		position: relative;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 30px;
+		text-decoration: none;
+		color: #000000;
+		top: 40px;
+	}
+	
+	a:hover {
+		color:#609af7;
+	}
+}
+
+@media all and (max-width:890px){
+	#hing_nobis h3{
+		text-align: center;
+		margin-top:-40px;
+	}
+}
+
+@media all and (max-width:572px){
+	#hing_nobis h3{
+		margin-top:130px;
+	}
+}
+
+
+@media all and (max-width:890px){
+	#hing_nobis a{
+		display: inline-block;
+	    left:50%;
+		transform: translate(-50%, 0);
+	}
+}
+
+@media all and (max-width:416px){
+	#hing_nobis a{
+		margin-top: 20px;
+	}
+}
+
+@media all and (max-width:284px){
+	#hing_nobis a{
+		margin-top: 50px;
+	}
+}
+
+@media all and (max-width:890px){
+	#hing_nobis p{
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media all and (max-width:392px){
+	#hing_nobis p{
+		margin-top: 80px;
+	}
+}
+
+@media all and (max-width:262px){
+	#hing_nobis p{
+		margin-top: 140px;
+	}
+}
+
+#img_rabbit {
+	margin-top:73px;
+	height: 287px;
+	
+	#rabbit{
+		position: relative;
+		background-image: url(../img/first_section.jpg);
+		top: 39px;
+		width: 100%;
+		height: 260px;
+		background-repeat: no-repeat;
+		background-size: 100%; 	
+	}
+	
+	p {
+		float: right;
+		color: #000000;
+		font-family: 'Open Sans', sans-serif;;
+		font-size: 25px;
+		line-height: 30px;
+		font-weight: 800;
+	}
+}
+
+@media all and (max-width:890px){
+	#img_rabbit  {
+		width: 100%;
+	}
+}
+
+@media all and (max-width:890px){
+	#img_rabbit p {
+		margin-top:-10px;
+	}
+}
+
+@media all and (max-width:890px){
+	#img_rabbit #rabbit {
+		height: 334px;
+	}
+}
+
+#no_liber {
+	margin-top: 70px;
+	
+	p {
+		color: #000000;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 25px;
+		line-height: 30px;
+		font-weight: 800;
+	}
+	
+	h2 {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 79px;
+		font-weight: 800;
+		line-height: 87.8px;
+		text-transform: uppercase;
+		letter-spacing: 7.9px;
+		margin-top: 132px;
+	}
+	
+	img {
+		margin-top: 9px;
+		width: 100%;
+	}
+}
+
+@media all and (max-width:1180px) {
+	#no_liber h2 {
+		margin-top: 160px;
+	}
+}
+
+@media all and (max-width:1120px) {
+	#no_liber h2 {
+		font-size:60px;
+	}
+}
+
+@media all and (max-width:955px) {
+	#no_liber h2{
+	  margin-top:190px;
+	}
+}
+
+@media all and (max-width:890px) {
+	#no_liber h2{
+	  margin-top:50px;
+	}
+}
+
+@media all and (max-width:450px) {
+	#no_liber h2{
+	  font-size:45px;
+	  text-align: center;
+	  line-height: 60px;
+		}
+}
+
+@media all and (max-width:356px) {
+	#no_liber h2{
+	  font-size:35px;
+	  text-align: center;
+	  line-height: 50px;		
+	}
+}
+
+@media all and (max-width:300px) {
+	#no_liber h2{
+	  font-size:28px;
+	  text-align: center;
+	  line-height: 40px;
+		}
+}
+
+@media all and (max-width:264px) {
+	#no_liber h2{
+	  font-size:22px;
+	  text-align: center;
+	  line-height: 30px;
+		}
+}
+
+@media all and (max-width:439px) {
+	#no_liber p{
+	  margin-top:100px;
+	}
+}
+
+@media all and (max-width:395px) {
+	#no_liber p{
+	  margin-top:170px;
+	}
+}
+
+@media all and (max-width:301px) {
+	#no_liber p{
+	  margin-top:200px;
+	}
+}
+
+@media all and (max-width:264px) {
+	#no_liber p{
+	  margin-top:260px;
+	}
+}
+
+#graece {
+	margin-top: 97px;
+	position: relative;
+	
+	h3 {
+		position: relative;
+		float:right;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 40px;
+		font-weight: 700;
+		line-height: 70px;
+		text-transform: uppercase;
+		top: -13px;
+	}
+	
+	#graece_word {
+		position: relative;
+		font-size:60px;
+		float: right;
+		right:10px;		
+	}
+	
+	#graece_text {
+		position:relative;
+		clear: both;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 30px;
+		width: 94.4%;
+		top:33px;
+	}
+	
+	div {
+		position: absolute;
+		width: 527px;
+		height: 160px;
+		background-color: #f6f6f6;
+		z-index: -1;
+		top:95px;
+		right:70px;
+	}
+	
+	a {
+		position: relative;
+		top:55px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 30px;
+		text-decoration: none;
+		color: #000000;		
+	}
+	
+	#graece_date {
+		margin-top: 98px;
+		float:right;
+		color: #000000;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 25px;
+		line-height: 30px;
+		font-weight: 800;
+	}
+	
+	img {
+		margin-top:8px;
+		width: 100%;
+	}
+	
+	a:hover {
+			color:#609af7;
+		}
+}
+
+@media all and (max-width:890px){
+	#graece{
+		margin-top:auto;
+		width: 100%;
+	}
+}
+
+@media all and (max-width:890px){
+	#graece h3 {
+		font-size:30px;
+		top:120px;
+	}
+}
+
+@media all and (max-width:540px){
+	#graece h3 {
+		top:40px;
+	}
+}
+
+@media all and (max-width:430px){
+	#graece h3 {
+		top:0px;
+	}
+}
+
+@media all and (max-width:320px){
+	#graece h3 {
+		top:-30px;
+	}
+}
+
+@media all and (max-width:242px){
+	#graece h3 {
+		text-align: center;
+	}
+}
+
+
+@media all and (max-width:890px){
+	#graece div {
+		width: 777px;
+		top:180px;
+	}
+}
+
+@media all and (max-width:890px){
+	#graece #graece_text  {
+		width: 100%;
+		top:140px;
+	}
+}
+
+@media all and (max-width:540px){
+	#graece #graece_text  {
+		top:60px;
+	}
+}
+
+@media all and (max-width:430px){
+	#graece #graece_text  {
+		top:20px;
+	}
+}
+
+@media all and (max-width:320px){
+	#graece #graece_text  {
+		top:0px;
+	}
+}
+
+@media all and(max-width:890px){
+	#graece a {
+		top:160px;
+	}
+}
+
+@media all and(max-width:540px){
+	#graece a {
+		top:80px;
+    }
+}
+
+@media all and(max-width:430px){
+	#graece a {
+		top:50px;
+    }
+}
+
+@media all and(max-width:380px){
+	#graece a {
+		top:25px;
+	}
+}
+
+@media all and (max-width:890px){
+	#graece #graece_date  {
+		margin-top:240px;
+	}
+}
+
+@media all and (max-width:540px){
+	#graece #graece_date  {
+		margin-top:150px;
+	}
+}
+
+@media all and (max-width:320px){
+	#graece #graece_date  {
+		margin-top:120px;
+	}
+}
+
+@media all and (max-width:490px){
+	#graece #graece_word {
+		font-size:45px;		
+	}
+}
+
+@media all and (max-width:242px){
+	#graece #graece_word {
+		text-align: center;
+		float: none;
+	}
+}
+
+#first {
+	position: absolute;
+	width: 173px;
+	right:100%;
+	top:44.2%;
+	border: 5px solid black;
+}
+
+#first_white {
+	position: absolute;
+	border:5px solid white;
+	top:44.2%;
+	left:0;
+	width: 90px;
+}
+
+#second {
+	position: absolute;
+	width: 130px;
+	top:60.6%;
+	right:100%;
+	border: 5px solid black;
+}
+
+#second_white {
+	position: absolute;
+	width: 130px;
+	top:60.6%;
+	left:0;
+	border: 5px solid white;
+}
+
+#third {
+	position: absolute;
+	width: 158px;
+	top:75.6%;
+	right:100%;
+	border: 5px solid black;
+}
+
+#third_white {
+	position: absolute;
+	width: 98px;
+	top:75.6%;
+	left:0;
+	border: 5px solid white;
+}
+
+@media all and (max-width:1000px){
+	.hr {
+		display: none;
+	}
+}

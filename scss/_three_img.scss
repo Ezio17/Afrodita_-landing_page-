@@ -1,0 +1,130 @@
+#three_img {
+	width: 1140px;
+	margin: auto;
+	margin-top: 103px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	
+	#first_img {
+		background-image: url(../img/mei.jpg);
+		width: 31.5%;
+		height: 468px;
+		margin-right: 1.3%;
+		display: inline-block;
+		position: relative;
+		background-position: 70% center;
+	}
+	
+	#second_img {
+		background-image: url(../img/cibo.jpg);
+		width: 31.5%;
+		height: 468px;
+		margin-right: 1.3%;
+		margin-left: 1.3%;
+		display: inline-block;
+		position: relative;
+		background-position: 65% center;
+	}
+	
+	#third_img {
+		background-image: url(../img/eum.jpg);
+		width: 31.5%;
+		height: 468px;
+		margin-left: 1.3%;
+		display: inline-block;
+		position: relative;	
+		background-position: 80% center;
+	}
+	
+	p {
+		text-shadow: 0 0 20px rgba(48, 48, 48, 0.7);
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 800;
+		text-transform: uppercase;
+		line-height: 87.8px;
+		font-size: 79px;
+		color:white;
+		position: absolute;
+		left:50%;
+		top:50%;
+		transform: translate(-50%, -50%);
+	}
+}
+
+@media all and (max-width:1180px){
+	#three_img {
+		width: 95%;
+	}
+}
+
+@media all and (max-width:890px){
+	#three_img #first_img {
+		width: 40%;
+		background-repeat: no-repeat;
+		margin-right: 5%;
+	}
+}
+
+@media all and (max-width:650px){
+	#three_img #first_img {
+		width: 360px;
+		margin-right: 0;
+	}
+}
+
+@media all and (max-width:410px){
+	#three_img #first_img {
+		width:100%;
+	}
+}
+
+@media all and (max-width:890px){
+	#three_img #second_img {
+		width: 40%;
+		background-repeat: no-repeat;
+		margin-left: 5%;
+	}
+}
+
+@media all and (max-width:650px){
+	#three_img #second_img {
+		width: 360px;
+		margin-left: 0;
+		margin-top: 50px;
+	}
+}
+
+@media all and (max-width:410px){
+	#three_img #second_img {
+		width: 100%;
+	}
+}
+
+@media all and (max-width:890px){
+	#three_img #third_img {
+		width: 360px;
+		background-repeat: no-repeat;
+		margin-top: 50px;
+	}
+}
+
+@media all and (max-width:650px){
+	#three_img #third_img {
+		width: 360px;
+	}
+}
+
+@media all and (max-width:410px){
+	#three_img #third_img {
+		width: 100%;
+	}
+}
+
+@media all and (max-width:250px){
+	#three_img p {
+		font-size:60px;
+	}
+}
+
+	

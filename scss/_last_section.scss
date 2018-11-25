@@ -1,0 +1,196 @@
+#last_section {
+	width: 1140px;
+	margin: auto;
+	margin-top: 118px;
+	display: flex;
+	flex-flow: row wrap;
+	position: relative;
+}
+
+@media all and (max-width:1180px) {
+	#last_section {
+		width: 95%;
+	}
+}
+
+#left{
+		width:47.38%;
+		margin-right: 2.6%;
+	
+		#photo{
+			background-image: url(../img/Girl%20at%20the%20water.jpg);
+			height: 587px;
+			width: 100%;			
+		}
+	}
+
+@media all and (max-width:890px){
+	#left {
+		width: 95%;
+		margin: auto;
+	}
+}
+	
+@media all and (max-width:1155px){
+	#photo {
+         background-position: 80% center;
+	}
+}
+
+@media all and (max-width:890px){
+	#photo {
+	  	background-position: center center;
+	}
+}
+
+@media all and (max-width:550px){
+	#photo {
+	  background-position: 80% center;
+	}
+}
+	
+@media all and (max-width:890px){
+	#left article {
+		background-repeat: no-repeat;
+	}
+}
+
+#right {
+		width:47.38%;
+		margin-left: 2.6%;
+				
+	p {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
+		line-height: 30px;
+		clear:both;
+		width: 98%;
+	}
+	
+	a {
+		position: relative;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 30px;
+		text-decoration: none;
+		color:black;
+		top: 25px;
+	}
+	
+	a:hover {
+			color:#609af7;
+		}
+	
+	#pri_att {
+		    position: relative;
+			float:right;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 40px;
+			line-height: 65px;
+			font-weight: 700;
+			text-transform: uppercase;
+		    width: 407px;
+			top: -18px;		
+	}
+	
+	#corrumpit {
+		    position: relative;
+			font-size:60px;
+		    float:right;
+		}
+	
+	div {
+		width: 538px;
+		height: 435px;
+		background-color: #f6f6f6;
+		position: absolute;
+		z-index: -1;
+		right:62px;
+		top:82px;
+	}
+	
+	#first_text {
+		position: relative;
+		top:42px;
+	}
+	
+	#second_text {
+		margin-top: 67px;
+	}
+}
+
+@media all and (max-width:890px){
+	#right {
+		width: 95%;
+	}
+}
+
+@media all and (max-width:890px){
+		#right div {
+			top:740px;
+			width: 770px;
+		}	
+	}
+
+@media all and (max-width:890px){
+		#right #pri_att {
+			top:48px;
+		}	
+	}
+
+@media all and (max-width:450px){
+		#right #pri_att {
+			font-size:30px;
+			text-align: right;
+			width: 100%;
+		}	
+	}
+
+@media all and (max-width:360px){
+		#right #pri_att {
+			font-size:20px;
+		}	
+	}
+
+@media all and (max-width:245px){
+		#right #pri_att {
+			font-size:16px;
+		}	
+	}
+
+@media all and (max-width:450px){
+		#right #corrumpit {
+			font-size:50px;
+		}	
+	}
+
+@media all and (max-width:360px){
+		#right #corrumpit {
+			font-size:40px;
+		}	
+	}
+
+@media all and (max-width:275px){
+		#right #corrumpit {
+			font-size:30px;
+		}	
+	}
+
+@media all and (max-width:890px){
+	#right p {
+		width: 100%;
+	}
+}
+
+@media all and (max-width:890px){
+	#right #first_text {
+		top: 100px;
+	}
+}
+
+@media all and (max-width:890px){
+	#right #second_text {
+		margin-top: 130px;
+	}
+}

@@ -1,0 +1,89 @@
+footer {
+	width: 1140px;
+	margin: auto;
+	margin-top: 148px;
+
+	#info {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 30px;
+		text-transform: uppercase;
+		word-spacing: 20px;
+		text-align: center;
+	}
+	
+	#info_about_tempalte {
+		margin-top: 58px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 30px;
+		text-align: center;
+	}
+	
+	#contact {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 30px;
+		margin-top: 10px;
+		text-align: center;
+	}
+	
+	nav {
+		margin: auto;
+		margin-top: 36px;
+		width: 310px;
+		padding-bottom: 30px;
+		padding-top: 20px;
+		
+		a{
+			padding: 0 10px;
+		}
+	}
+}
+
+@media all and (max-width:1180px){
+	footer {
+		width: 95%;
+		margin-top: 200px;
+	}
+}
+
+@media all and (max-width:663px){
+	footer {
+		margin-top: 150px;
+	}
+}
+
+@media all and (max-width:544px){
+	footer {
+		margin-top: 120px;
+	}
+}
+
+@media all and (max-width:349px) {
+	footer nav {
+		width: 184px;
+		margin: auto;
+		height: 105px;
+		margin-top: 50px;
+	    
+	}
+}
+
+@media all and (max-width:349px) {
+	footer #ball_inst {
+		position: relative;
+		margin-left: 27px;
+		top: 15px;
+	}
+}
+
+nav img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
